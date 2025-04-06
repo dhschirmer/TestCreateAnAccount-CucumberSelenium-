@@ -6,8 +6,8 @@ Feature: Create an account
     And I have entered "01/04/1990" as valid date of birth
     And I have entered "Peter" as first name
     And I have entered "Parker" as last name
-    And I have entered "peterparker@gmail.123.com" as email address
-    And I have entered "peterparker@gmail.123.com" as confirm email address
+    And I have entered "peterparker@gmail.1.com" as email address
+    And I have entered "peterparker@gmail.1.com" as confirm email address
     And I have entered "123asd" as password
     And I have entered "123asd" as retype your password
     And I have checked Terms and Conditions
