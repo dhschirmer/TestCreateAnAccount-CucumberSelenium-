@@ -33,7 +33,7 @@ public class AccountCreationSteps {
         tcCheck = false;
     }
 
-    private void click(WebDriver driver, By by) {
+    private void click(By by) {
         (new WebDriverWait(driver, Duration.ofSeconds(10))).until(ExpectedConditions.elementToBeClickable(by));
         driver.findElement(by).click();
     }
@@ -136,7 +136,7 @@ public class AccountCreationSteps {
 
     @When("I click Confirm and Join")
     public void iClickConfirmAndJoin() {
-        click(driver, By.name("join"));
+        click(By.name("join"));
     }
 
     @Then("The membership is created")
